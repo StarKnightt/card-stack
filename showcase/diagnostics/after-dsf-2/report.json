@@ -1,0 +1,120 @@
+{
+  "label": "after-dsf-2",
+  "mode": "headless, device scale 2",
+  "geometry": {
+    "devicePixelRatio": 2,
+    "viewport": [
+      1600,
+      940
+    ],
+    "deckZoom": 1,
+    "active": 0,
+    "untouched": true,
+    "activeCard": {
+      "index": 0,
+      "backing": [
+        840,
+        520
+      ],
+      "displayedDevicePx": [
+        840,
+        520
+      ],
+      "originDevicePx": [
+        1180,
+        962
+      ],
+      "transform": "matrix(1, 0, 0, 1, 0, 176)"
+    },
+    "backCards": [
+      {
+        "index": 1,
+        "backing": [
+          840,
+          520
+        ]
+      },
+      {
+        "index": 2,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 3,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 4,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 5,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 6,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 7,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 8,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 9,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 10,
+        "backing": [
+          714,
+          322
+        ]
+      },
+      {
+        "index": 11,
+        "backing": [
+          714,
+          322
+        ]
+      }
+    ]
+  },
+  "restStyleMutations2500ms": 0,
+  "restFlicker": {
+    "meanAbsDelta": 0.172,
+    "changedShare": 0.0032,
+    "flicker": 0.6037
+  },
+  "sharpnessFrozen": {
+    "backingDetail": 8.823,
+    "screenDetail": 8.823,
+    "ratio": 1
+  }
+}

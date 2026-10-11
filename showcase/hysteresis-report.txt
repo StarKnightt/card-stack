@@ -1,0 +1,148 @@
+PASS  boundary 3|4 from below: parked on card 3 (expected 3)
+PASS  boundary 3|4 from below: 0 index changes during 105 wiggle moves
+PASS  boundary 7|8 from above: parked on card 8 (expected 8)
+PASS  boundary 7|8 from above: 0 index changes during 106 wiggle moves
+PASS  boundary 0|1 from below: parked on card 0 (expected 0)
+PASS  boundary 0|1 from below: 0 index changes during 68 wiggle moves
+PASS  boundary 10|11 from above: parked on card 11 (expected 11)
+PASS  boundary 10|11 from above: 0 index changes during 67 wiggle moves
+PASS  slow pass up: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+PASS  slow pass down: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+PASS  slow pass up (±1.5px tremor): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+PASS  slow pass down (±1.5px tremor): [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+PASS  fast sweep 0 → 11 lands directly (changes: [11, 7, 2, 7])
+PASS  fast sweep ends on card 7
+PASS  fast sweeps did not step through every card (4 changes)
+{
+  "wiggle": [
+    {
+      "boundary": "3|4",
+      "side": "below",
+      "parkedIndex": 3,
+      "expected": 3,
+      "changes": 0,
+      "moves": 105
+    },
+    {
+      "boundary": "7|8",
+      "side": "above",
+      "parkedIndex": 8,
+      "expected": 8,
+      "changes": 0,
+      "moves": 106
+    },
+    {
+      "boundary": "0|1",
+      "side": "below",
+      "parkedIndex": 0,
+      "expected": 0,
+      "changes": 0,
+      "moves": 68
+    },
+    {
+      "boundary": "10|11",
+      "side": "above",
+      "parkedIndex": 11,
+      "expected": 11,
+      "changes": 0,
+      "moves": 67
+    }
+  ],
+  "zoneHeightPx": 36.33,
+  "wiggleVideo": "C:\\Code\\card-stack\\showcase\\videos\\hysteresis-boundary-wiggle.webm",
+  "passes": [
+    {
+      "direction": "up",
+      "jitter": 0,
+      "sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "switchPastBoundary": {
+        "min": 0.303,
+        "max": 0.321
+      }
+    },
+    {
+      "direction": "down",
+      "jitter": 0,
+      "sequence": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "switchPastBoundary": {
+        "min": 0.303,
+        "max": 0.321
+      }
+    },
+    {
+      "direction": "up",
+      "jitter": 1.5,
+      "sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "switchPastBoundary": {
+        "min": 0.305,
+        "max": 0.368
+      }
+    },
+    {
+      "direction": "down",
+      "jitter": 1.5,
+      "sequence": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "switchPastBoundary": {
+        "min": 0.302,
+        "max": 0.377
+      }
+    }
+  ],
+  "passesVideo": "C:\\Code\\card-stack\\showcase\\videos\\hysteresis-slow-passes.webm",
+  "fastSweep": [
+    11,
+    7,
+    2,
+    7
+  ]
+}
+
+All hysteresis checks passed.

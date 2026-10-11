@@ -1,0 +1,119 @@
+{
+  "label": "before-headed",
+  "mode": "headed (real display)",
+  "geometry": {
+    "devicePixelRatio": 1.1979166269302368,
+    "viewport": [
+      1588,
+      847
+    ],
+    "deckZoom": 1,
+    "active": 0,
+    "activeCard": {
+      "index": 0,
+      "backing": [
+        503,
+        311
+      ],
+      "displayedDevicePx": [
+        503.109,
+        311.453
+      ],
+      "originDevicePx": [
+        699.438,
+        520.662
+      ],
+      "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0.175, 1, -0.0005, 0, 176, 0, 1)"
+    },
+    "backCards": [
+      {
+        "index": 1,
+        "backing": [
+          503,
+          311
+        ]
+      },
+      {
+        "index": 2,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 3,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 4,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 5,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 6,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 7,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 8,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 9,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 10,
+        "backing": [
+          252,
+          156
+        ]
+      },
+      {
+        "index": 11,
+        "backing": [
+          252,
+          156
+        ]
+      }
+    ]
+  },
+  "restStyleMutations2500ms": 0,
+  "restFlicker": {
+    "meanAbsDelta": 4.0978,
+    "changedShare": 0.2384,
+    "flicker": 14.2734
+  },
+  "sharpnessFrozen": {
+    "backingDetail": 12.684,
+    "screenDetail": 10.222,
+    "ratio": 0.806
+  }
+}
