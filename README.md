@@ -14,3 +14,7 @@ pnpm dev
 ```
 
 Then open http://localhost:3000.
+
+## Deploying
+
+Set `NEXT_PUBLIC_SITE_URL` to the site's public origin (for example `https://glow-deck.example.com`) so Open Graph and Twitter image URLs are absolute. On Vercel it falls back to the project's production URL, and to `http://localhost:3000` locally.
